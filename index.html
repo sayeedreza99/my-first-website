@@ -16,6 +16,35 @@
         div {
             text-align: center;
         }
+
+        input:focus {
+            color: green;
+            font-weight: 700;
+            font-size: 20px;
+        }
+
+        li:nth-child(2n-1) {
+            background-color: darkgreen;
+            padding: 2px;
+            letter-spacing: 3px;
+        }
+
+        a:visited {
+            color: gray;
+
+
+        }
+
+        .border_nai {
+            text-decoration: none;
+            text-transform: uppercase;
+        }
+
+        button {
+            border: 10px;
+            border-radius: 15px;
+
+        }
     </style>
 </head>
 
@@ -23,8 +52,24 @@
     <div>
         <h1 class="special-hover">If you want to see</h1>
         <p>fill up the form below:</p>
-        <form action="text">
-            <input type="text"></form>
+        <input name="email" type="text">
+        <br>
+        <input name="password" type="text">
+        <br><br>
+        <a href="http://google.com" class="border_nai"><button>Click me</button></a>
+        <br> <br>
+        <a href="http://google.com" class="border_nai" target="_blank"><button>Again cliek me</button></a>
+        <br><br>
+        <a href="#" class="border_nai"><button>Download</button></a>
+        <ul>
+            <li>alia</li>
+            <li>dalia</li>
+            <li>malia</li>
+            <li>jalia</li>
+            <li>falia</li>
+            <li>dhuia</li>
+            <li>kupaia</li>
+        </ul>
     </div>
 </body>
 
