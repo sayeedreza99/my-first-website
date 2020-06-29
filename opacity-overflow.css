@@ -1,0 +1,63 @@
+
+        .bg {
+            width: 400px;
+            height: 350px;
+            background: url(https://www.gettyimages.com/gi-resources/images/500px/983794168.jpg) no-repeat center /cover;
+            overflow: hidden;
+            clear: both;
+            margin-top: 80px;
+        }
+
+        .box p {
+            text-align: center;
+            background: #fff;
+            padding: 30px;
+            opacity: 0.5;
+            margin-top: 100px;
+        }
+
+        ul {
+            margin: 0px;
+            padding: 0;
+            background: olivedrab;
+            overflow: hidden;
+            width: auto;
+        }
+
+        ul li {
+            float: left;
+            list-style-type: none;
+        }
+
+        ul li a {
+            text-decoration: none;
+            color: black;
+            text-transform: capitalize;
+            padding: 12px 16px;
+            display: inline-block
+        }
+
+        .dropdown-content {
+            background: #f9f9f9;
+            box-shadow: 0 8px 16px 0 rgba(0 0 0 0.3);
+            display: none;
+            position: absolute;
+        }
+
+        .dropdown-content a {
+            display: block;
+            color: #333;
+        }
+
+        ul li a:hover {
+            background: red;
+        }
+
+        .dropdown-content a:hover {
+            background: #f1f1f1;
+        }
+
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+ 

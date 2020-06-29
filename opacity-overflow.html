@@ -2,29 +2,25 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>learning CSS</title>
-    <style>
-        .bg {
-            width: 400px;
-            height: 350px;
-            background: url(https://www.gettyimages.com/gi-resources/images/500px/983794168.jpg) no-repeat center /cover;
-            overflow: hidden;
-        }
-
-        .box p {
-            text-align: center;
-            background: #fff;
-            padding: 30px;
-            opacity: 0.5;
-            margin-top: 100px;
-        }
-    </style>
+    <title>learning CSS-drpdown</title>
+    <link rel="stylesheet" href="opacity-overflow.css">
 </head>
 
 <body>
+    <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="javasript:void(0)">Production</a></li>
+        <li class="dropdown">
+            <a class="dropbtn" href="#">blog</a>
+            <div class="dropdown-content">
+                <a href="#">job</a>
+                <a href="#">bekar</a>
+                <a href="#">ghum</a>
+                <a href="#">hotasa</a>
+            </div>
+        </li>
+        <li><a href="#">contact</a></li>
+    </ul>
     <div class="bg">
         <div class="box">
             <p>This is just awesome</p>
